@@ -27,7 +27,7 @@ const Comments = ({ videoId }) => {
         <p>Üzgünüz yorumlar alınamadı</p>
       ) : !comments ? (
         <p>Yorumlar Yükleniyor...</p>
-      ) : comments.data.length === 0 ? (
+      ) : !comments.data || comments.data.length === 0 ? (
         <p>Henüz herhangi bir yorum bulunmuyor</p>
       ) : (
         <div>

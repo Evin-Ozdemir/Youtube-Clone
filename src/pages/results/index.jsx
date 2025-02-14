@@ -52,7 +52,7 @@ const Results = () => {
 
       <div className="wrapper flex flex-col gap-5 justify-center">
         {data.map((item, key) => {
-          <Card key={key} item={item} isRow />;
+          return <Card key={key} item={item} isRow />;
         })}
       </div>
       {isLoading && <BasicLoader />}

@@ -6,3 +6,7 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+VITE_API_KEY=API_KEYİNİ_RAPİD_APİ_DAN_AL
+VITE_BASE_URL=API_TEMEL_ADRESİNİ_TAMAMLA
+VITE_API_HOST=API_HOSTUNU_RAPİD_APİ_DAN_AL

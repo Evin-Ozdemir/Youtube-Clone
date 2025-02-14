@@ -1,11 +1,26 @@
 @import "tailwindcss";
 
 body {
-  background: #0f0f0f;
-  color: white;
+  background-color: white;
+  color: black;
   overflow: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
-
+/* Karanlık tema (Dark Mode) */
+body.dark {
+  background-color: #121212;
+  color: white;
+}
+/* Tema butonunun stilleri */
+.theme-toggle-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+.lightIcon {
+  color: white;
+}
 .videos {
   overflow-y: auto;
   height: calc(100vh - 53px);
