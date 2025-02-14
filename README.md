@@ -5,6 +5,8 @@ In this project, I enabled dynamic viewing, monitoring and discovery of video co
  <div>
  <h2>📸 Project Demo</h2>
  <p>Watch the video to see how the project works! 👇</p>
+  
+![redpandacompress_ScreenRecording2025-02-14at201351-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/ab517226-797d-4d8a-ad4d-c662ab6ac96f)
 
 
 
